@@ -1,0 +1,23 @@
+.hidden {
+  display: none; }
+
+.show {
+  display: block; }
+
+.active {
+  border-bottom: 2px solid red; }
+
+.tabs {
+  width: 236px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between; }
+
+.tab:focus {
+  color: red; }
+
+.tab {
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+  padding: 10px; }
